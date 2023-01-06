@@ -1,0 +1,69 @@
+@import './mode-css-v1.00/mode.css';
+
+#logo {
+    width: auto;
+}
+
+.f-1-450 {
+    flex: 1 1 450px;
+}
+
+header {
+    background-color: var(--theme1);
+    color: var(--light);
+}
+
+header a {
+    color: var(--light);
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.overlay {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    color: var(--light);
+    transition: opacity 300ms;
+}
+
+.label {
+    background-color: #333;
+    padding: 0.2rem 1rem;
+    border-radius: 16px;
+    font-size: 14px;
+    color: white;
+    top: 1rem;
+    right: 1rem;
+}
+
+.design {
+    min-height: 20vh;
+    background-image: url('../images/bg.svg');
+    background-size: cover;
+}
+
+.overlay:hover {
+    opacity: 1;
+}
+
+article img {
+    display: block;
+}
+
+article h2 a {
+    text-decoration: none;
+}
+
+.sm a {
+    text-decoration: none;
+}
